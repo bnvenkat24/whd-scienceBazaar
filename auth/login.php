@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +13,16 @@
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
     <div class="main">
- <!-- Sing in  Form -->
+        <!-- Sing in  Form -->
         <section class="sign-in">
             <div class="container">
                 <div class="signin-content">
                     <div class="signin-image">
-                        <!--<figure><img src="images/Kentex-Free-Account.png" alt="sing up image"></figure>-->
-                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-                        <a href="index.html" class="signup-image-link">Create an account</a>
+                        <figure><img src="images/sign-up-masters-in-cash-300x300.png" alt="sing up image"></figure>
                     </div>
 
                     <div class="signin-form">
@@ -30,18 +30,18 @@
                         <form method="POST" class="register-form" id="login-form">
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input type="email" name="email" id="email" placeholder="Your Email"/>
+                                <input type="email" name="email" id="email" placeholder="Your Email" />
                             </div>
                             <div class="form-group">
                                 <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Password" />
                             </div>
                             <div class="form-group">
                                 <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
                                 <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
                             </div>
                             <div class="form-group form-button">
-                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
                             </div>
                         </form>
                         <div class="social-login">
@@ -54,6 +54,7 @@
                         </div>
                     </div>
                 </div>
+                <a href="index.html" class="signup-image-link">Create an account</a><br>
             </div>
         </section>
 
@@ -63,4 +64,5 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
 </html>
