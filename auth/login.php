@@ -1,3 +1,7 @@
+<?php
+session_start();
+if ($_SESSION['logged_in'] == false) {
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,17 +31,17 @@
 
                     <div class="signin-form">
                         <h2 class="form-title">Sign In</h2>
-                        <form method="POST" class="register-form" id="login-form">
+                        <form method="POST" action= "login.php" class="register-form" id="login-form">
                             <div class="form-group">
                                 <label for="email"><i class="zmdi zmdi-email"></i></label>
-                                <input type="email" name="email" id="email" placeholder="Your Email" />
+                                <input type="email" name="email" id="email" placeholder="Your Email" required/>
                             </div>
                             <div class="form-group">
                                 <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input type="password" name="your_pass" id="your_pass" placeholder="Password" />
+                                <input type="password" name="your_pass" id="your_pass" placeholder="Password" required/>
                             </div>
                             <div class="form-group">
-                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term"/>
                                 <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
                             </div>
                             <div class="form-group form-button">
@@ -63,6 +67,64 @@
     <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>
+
+<?php
+}
+else{
+    header('Location: ../index.php');
+}
+if (isset($_POST['signin'])) {
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "whd";
+
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    // Check connection
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+
+    $email = $_POST['email'];
+    $password = sha1($_POST['your_pass']);
+
+
+    $stmt = $conn->prepare("SELECT * FROM users WHERE email = ? AND password = ? LIMIT 1");
+    $stmt->bind_param("ss", $email, $password);
+    //execute the statement
+    $stmt->execute();
+
+    $stmt->bind_result($fname, $lname, $email, $password);
+    $stmt->store_result();
+
+
+
+
+    if ($stmt->num_rows == 1)  //To check if the row exists
+    {
+        if ($stmt->fetch()) //fetching the contents of the row
+        {
+            session_start();
+            $_SESSION['logged_in'] = true;
+            $_SESSION['email'] = $email;
+            $_SESSION['fname'] = $fname;
+            $_SESSION['lname'] = $lname;
+            echo 'Success!';
+            header("Location: ../index.html");
+            exit();
+        }
+    }
+     else {
+        echo "INVALID USERNAME/PASSWORD Combination!";
+        header("Location: ../contact.html");
+    }
+    $stmt->close();
+$conn->close();
+
+}
