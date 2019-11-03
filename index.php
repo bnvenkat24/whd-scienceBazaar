@@ -48,7 +48,6 @@
             <div class="dropdown-menu" aria-labelledby="dropdown04">
               <a class="dropdown-item" href="frequently-asked-questions.html">FAQ</a>
               <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
-              <a class="dropdown-item" href="auth/logout.php">
             </div>
           </li>
         </ul>
