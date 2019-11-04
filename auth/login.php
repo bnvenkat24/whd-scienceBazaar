@@ -115,13 +115,12 @@ if (isset($_POST['signin'])) {
             $_SESSION['email'] = $email;
             $_SESSION['fname'] = $fname;
             $_SESSION['lname'] = $lname;
-            echo 'Success!';
-            header("Location: ../index.html");
+            
+            header("Location: ../index.php");
             exit();
         }
     }
      else {
-        echo "INVALID USERNAME/PASSWORD Combination!";
         header("Location: ../contact.html");
     }
     $stmt->close();

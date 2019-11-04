@@ -1,3 +1,7 @@
+<?php
+session_start();
+if($_SESSION['logged_in'] == true){
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -691,5 +695,11 @@
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/jquery.steps.js"></script>
 	<script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 </html>
+<?php
+}
+else{
+	header("Location: ../auth/sign-up.php");
+}
+?>

@@ -39,7 +39,11 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
+          <?php
+          session_start();
+          echo $_SESSION['logged_in'] ?>
           <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="application/register.php" class="nav-link">Apply Now</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
           <li class="nav-item"><a href="committee.html" class="nav-link">Committee</a></li>
           <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
@@ -48,6 +52,19 @@
             <div class="dropdown-menu" aria-labelledby="dropdown04">
               <a class="dropdown-item" href="frequently-asked-questions.html">FAQ</a>
               <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
+
+              <?php
+              if ($_SESSION['logged_in'] == true) {
+                echo '<hr>
+                <center>' . $_SESSION['fname'] . '</center>
+                <a class="dropdown-item" href="auth/logout.php">Logout</a>';
+              } else {
+                echo '<hr>
+                <a class="dropdown-item" href="auth/login.php">Login</a>
+                <a class="dropdown-item" href="auth/sign-up.php">Register</a>
+                ';
+              }
+              ?>
             </div>
           </li>
         </ul>
