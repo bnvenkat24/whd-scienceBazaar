@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 session_start();
 if ($_SESSION['logged_in'] == false) {
 ?>
@@ -58,7 +59,7 @@ if ($_SESSION['logged_in'] == false) {
                         </div>
                     </div>
                 </div>
-                <a href="index.html" class="signup-image-link">Create an account</a><br>
+                <a href="sign-up.php" class="signup-image-link">Create an account</a><br>
             </div>
         </section>
 

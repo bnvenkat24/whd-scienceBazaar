@@ -1,3 +1,6 @@
+<?php
+error_reporting(0);
+session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -39,9 +42,6 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <?php
-          session_start();
-          echo $_SESSION['logged_in'] ?>
           <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="application/register.php" class="nav-link">Apply Now</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
@@ -56,7 +56,12 @@
               <?php
               if ($_SESSION['logged_in'] == true) {
                 echo '<hr>
-                <center>' . $_SESSION['fname'] . '</center>
+                <center style="white-space: nowrap; 
+                               width: 200px; 
+                               overflow: hidden;
+                               text-overflow: ellipsis;">'
+                  . $_SESSION['email'] .
+                  '</center>
                 <a class="dropdown-item" href="auth/logout.php">Logout</a>';
               } else {
                 echo '<hr>
