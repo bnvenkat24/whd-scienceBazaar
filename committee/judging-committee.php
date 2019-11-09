@@ -32,7 +32,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
+            <a class="navbar-brand" href="../index.php">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                 aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
@@ -40,16 +40,16 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="../about.html" class="nav-link">About</a></li>
-                    <li class="nav-item active"><a href="../committee.html" class="nav-link">Committee</a></li>
-                    <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="../index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="../about.php" class="nav-link">About</a></li>
+                    <li class="nav-item active"><a href="../committee.php" class="nav-link">Committee</a></li>
+                    <li class="nav-item"><a href="../contact.php" class="nav-link">Contact</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+                        <a class="nav-link dropdown-toggle" href="room.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">More</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown04">
-                            <a class="dropdown-item" href="../frequently-asked-questions.html">FAQ</a>
-                            <a class="dropdown-item" href="../terms-and-conditions.html">Terms and Conditions</a>
+                            <a class="dropdown-item" href="../frequently-asked-questions.php">FAQ</a>
+                            <a class="dropdown-item" href="../terms-and-conditions.php">Terms and Conditions</a>
                         </div>
                     </li>
                 </ul>
@@ -65,10 +65,10 @@
             <div class="container">
                 <div class="row slider-text justify-content-center align-items-center">
                     <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
-                        <p class="breadcrumbs"><span class="mr-2"><a href="../index.html">Home</a></span> <span
-                                class="mr-2"><a href="../committee.html">Committee</a></span> <span>Steering
+                        <p class="breadcrumbs"><span class="mr-2"><a href="../index.php">Home</a></span> <span
+                                class="mr-2"><a href="../committee.php">Committee</a></span> <span>Judging
                                 Committee</span></p>
-                        <h1 class="mb-3">Steering Committee</h1>
+                        <h1 class="mb-3">Judging Committee</h1>
                     </div>
                 </div>
             </div>
@@ -79,12 +79,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 ftco-animate">
-                    <h2 class="mb-3">#2. Steering Committee</h2>
-                    <p>An advisory committee usually made up of high level stakeholders and/or experts who provide guidance on key issues such
-                    as company policy and objectives, budgetary control, marketing strategy, resource allocation, and decisions involving
-                    large expenditures. </p>
+                    <h2 class="mb-3">#3. Judging Committee</h2>
+                    <p>An Judging Committee has a role to adhere to all rules and regulations which apply to Judges. Although Associate Judges
+                    are required to participate in a judging sessions and one seminar annually, they are expected, in addition, to attend as
+                    many of the judging sessions at their home centers as possible. </p>
 
-                    <p>The role of Steering Committee in Science Bazaar here is to provide guidance of the overall event .</p>
+                    <p>The role of the Judging committee is to judge the ideas and projects that have been published by the participants. The
+                    right Projects or ideas should be taken to the next level of the Event.</p>
                 </div>
 
             </div>

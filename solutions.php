@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>WHD - About Us</title>
+    <title>Racks - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -30,23 +30,24 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
+        <a class="navbar-brand" href="../index.php">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="committee.html" class="nav-link">Committee</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+            <li class="nav-item active"><a href="solutions.php" class="nav-link">Solution</a></li>
+            <li class="nav-item"><a href="committee.php" class="nav-link">Committee</a></li>
+            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+              <a class="nav-link dropdown-toggle" href="room.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">More</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="frequently-asked-questions.html">FAQ</a>
-                <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
+                <a class="dropdown-item" href="frequently-asked-questions.php">FAQ</a>
+                <a class="dropdown-item" href="terms-and-conditions.php">Terms and Conditions</a>
               </div>
             </li>
           </ul>
@@ -55,45 +56,79 @@
     </nav>
     <!-- END nav -->
     
-     <section class="home-slider ftco-degree-bg">
+    <section class="home-slider ftco-degree-bg">
       <div class="slider-item bread-wrap" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center">
             <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
-              <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>About</span></p>
-              <h1 class="mb-3 bread">About Us</h1>
+              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Solutions</span></p>
+              <h1 class="mb-3 bread">Services</h1>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section-2 ftco-degree-bg">
-      <div class="container d-flex">
-        <div class="section-2-blocks-wrapper row d-flex">
-          <div class="img col-sm-12 col-lg-6 order-last" style="background-image: url('images/about.jpg');">
+    <section class="ftco-section ftco-degree-bg">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Our Services</span>
+            <h2>Racks provides a fully featured text services platform!</h2>
           </div>
-          <div class="text col-lg-6 order-first ftco-animate">
-            <div class="text-inner align-self-start">
-              <h3 class="heading">Welcome to WHD - Science Bazaar</h3>
-              <p>World Humanitarian Drive (WHD) is a charity organisation founded by Hon.Abdul Basit Syed who was inspired to initiate
-              the idea of this charity . WHD has made huge strides in this field and made important links with Faith Leaders, other
-              charities, and Government Organizations across the world, to combat Violence, Extremism, and Radicalization and to
-              Promote Peace through Education, Sports, Arts and Media and instill humanistic values in our community, particularly
-              amongst the youth who are the most vulnerable.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-layers"></span></div></div>
+              <div class="media-body p-2">
+                <h3 class="heading">Unlimited Features</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gears"></span></div></div>
+              <div class="media-body p-2">
+                <h3 class="heading">Multiple Functions</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+            </div>      
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-paper-plane"></span></div></div>
+              <div class="media-body p-2">
+                <h3 class="heading">Advanced Visualizations</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+            </div>    
+          </div>
 
-              <p>WHD has come together as a group of like-minded individuals whose combined skills will work together supporting the
-              mission, vision and values of the charity. WHD aims to use strategies positively to help and inspire communities to be
-              empowered in the quality of life through street campaign, seminars, and events using the expertise of professionals in
-              the field of medicine, legal knowledge, finance, education and other related areas important for community engagement,
-              and interfaith understanding and peace. Outstanding contributions by young talents and individuals shall be recognized
-              on a yearly basis to develop role models and leaders within communities striving ultimately for a better world.</p>
-
-              <p>Our partnership organization “Universal Peace Federation” which holds a special Consultative Status with the United
-              Nations Economic and Social Council (ECOSOC) .this is the highest status granted by the United Nations to
-              non-governmental organizations (NGO's), thereby allowing them to participate in the work of the United Nations.</p>
-            </div>
+          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+            <div class="media block-6 services d-block text-center">
+              <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div></div>
+              <div class="media-body p-2">
+                <h3 class="heading">Community &amp; Supports</h3>
+                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+              </div>
+            </div>      
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4 ftco-animate">
+            <h3 class="h5">#01 Web Design</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <h3 class="h5">#02 Web Marketing</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          </div>
+          <div class="col-md-4 ftco-animate">
+            <h3 class="h5">#03 Web Development</h3>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
           </div>
         </div>
       </div>

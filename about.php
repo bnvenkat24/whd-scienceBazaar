@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Racks - Free Bootstrap 4 Template by Colorlib</title>
+    <title>WHD - About Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -30,23 +30,23 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
+        <a class="navbar-brand" href="index.php">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item active"><a href="committee.html" class="nav-link">Committee</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item active"><a href="about.php" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="committee.php" class="nav-link">Committee</a></li>
+            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+              <a class="nav-link dropdown-toggle" href="room.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">More</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="frequently-asked-questions.html">FAQ</a>
-                <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
+                <a class="dropdown-item" href="frequently-asked-questions.php">FAQ</a>
+                <a class="dropdown-item" href="terms-and-conditions.php">Terms and Conditions</a>
               </div>
             </li>
           </ul>
@@ -55,50 +55,47 @@
     </nav>
     <!-- END nav -->
     
-    <section class="home-slider ftco-degree-bg">
+     <section class="home-slider ftco-degree-bg">
       <div class="slider-item bread-wrap" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
         <div class="overlay"></div>
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center">
             <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
-              <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Committee</span></p>
-              <h1 class="mb-3 bread">Committee</h1>
+              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>About</span></p>
+              <h1 class="mb-3 bread">About Us</h1>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="ftco-section ftco-degree-bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="committee/organizing-committe.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-                <h3 class="heading"><a href="#">Organizing Committee</a></h3>
-              </div>
+    <section class="ftco-section-2 ftco-degree-bg">
+      <div class="container d-flex">
+        <div class="section-2-blocks-wrapper row d-flex">
+          <div class="img col-sm-12 col-lg-6 order-last" style="background-image: url('images/about.jpg');">
+          </div>
+          <div class="text col-lg-6 order-first ftco-animate">
+            <div class="text-inner align-self-start">
+              <h3 class="heading">Welcome to WHD - Science Bazaar</h3>
+              <p>World Humanitarian Drive (WHD) is a charity organisation founded by Hon.Abdul Basit Syed who was inspired to initiate
+              the idea of this charity . WHD has made huge strides in this field and made important links with Faith Leaders, other
+              charities, and Government Organizations across the world, to combat Violence, Extremism, and Radicalization and to
+              Promote Peace through Education, Sports, Arts and Media and instill humanistic values in our community, particularly
+              amongst the youth who are the most vulnerable.</p>
+
+              <p>WHD has come together as a group of like-minded individuals whose combined skills will work together supporting the
+              mission, vision and values of the charity. WHD aims to use strategies positively to help and inspire communities to be
+              empowered in the quality of life through street campaign, seminars, and events using the expertise of professionals in
+              the field of medicine, legal knowledge, finance, education and other related areas important for community engagement,
+              and interfaith understanding and peace. Outstanding contributions by young talents and individuals shall be recognized
+              on a yearly basis to develop role models and leaders within communities striving ultimately for a better world.</p>
+
+              <p>Our partnership organization “Universal Peace Federation” which holds a special Consultative Status with the United
+              Nations Economic and Social Council (ECOSOC) .this is the highest status granted by the United Nations to
+              non-governmental organizations (NGO's), thereby allowing them to participate in the work of the United Nations.</p>
             </div>
           </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry" data-aos-delay="100">
-              <a href="committee/steering-committee.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text p-4">
-                <h3 class="heading"><a href="#">Steering Committee</a></h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry" data-aos-delay="200">
-              <a href="committee/judging-committee.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text p-4">
-                <h3 class="heading"><a href="#">Judging Committee</a></h3>
-              </div>
-            </div>
-          </div>
+        </div>
       </div>
     </section>
 

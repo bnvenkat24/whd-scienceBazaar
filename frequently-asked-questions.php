@@ -32,7 +32,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
+            <a class="navbar-brand" href="index.php">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                 aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
@@ -40,16 +40,16 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="committee.html" class="nav-link">Committee</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="committee.php" class="nav-link">Committee</a></li>
+                    <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="room.php" id="dropdown04" data-toggle="dropdown"
                             aria-haspopup="true" aria-expanded="false">More</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown04">
-                            <a class="dropdown-item" href="portfolio.html">FAQ</a>
-                            <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
+                            <a class="dropdown-item" href="portfolio.php">FAQ</a>
+                            <a class="dropdown-item" href="terms-and-conditions.php">Terms and Conditions</a>
                         </div>
                     </li>
                 </ul>
@@ -65,7 +65,7 @@
             <div class="container">
                 <div class="row slider-text justify-content-center align-items-center">
                     <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
-                        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span>
+                        <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span>
                             <span>FAQ</span></p>
                         <h1 class="mb-3 bread">FAQ</h1>
                     </div>

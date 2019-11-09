@@ -30,24 +30,23 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-        <a class="navbar-brand" href="../index.html">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
+        <a class="navbar-brand" href="index.php">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="oi oi-menu"></span> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item active"><a href="solutions.html" class="nav-link">Solution</a></li>
-            <li class="nav-item"><a href="committee.html" class="nav-link">Committee</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+            <li class="nav-item active"><a href="committee.php" class="nav-link">Committee</a></li>
+            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
+              <a class="nav-link dropdown-toggle" href="room.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true"
                 aria-expanded="false">More</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="frequently-asked-questions.html">FAQ</a>
-                <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
+                <a class="dropdown-item" href="frequently-asked-questions.php">FAQ</a>
+                <a class="dropdown-item" href="terms-and-conditions.php">Terms and Conditions</a>
               </div>
             </li>
           </ul>
@@ -62,8 +61,8 @@
         <div class="container">
           <div class="row slider-text justify-content-center align-items-center">
             <div class="col-md-10 col-sm-12 ftco-animate mb-4 text-center">
-              <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Solutions</span></p>
-              <h1 class="mb-3 bread">Services</h1>
+              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Committee</span></p>
+              <h1 class="mb-3 bread">Committee</h1>
             </div>
           </div>
         </div>
@@ -72,65 +71,34 @@
 
     <section class="ftco-section ftco-degree-bg">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Our Services</span>
-            <h2>Racks provides a fully featured text services platform!</h2>
-          </div>
-        </div>
         <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-layers"></span></div></div>
-              <div class="media-body p-2">
-                <h3 class="heading">Unlimited Features</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gears"></span></div></div>
-              <div class="media-body p-2">
-                <h3 class="heading">Multiple Functions</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-paper-plane"></span></div></div>
-              <div class="media-body p-2">
-                <h3 class="heading">Advanced Visualizations</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>    
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div></div>
-              <div class="media-body p-2">
-                <h3 class="heading">Community &amp; Supports</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-        </div>
-        <div class="row mt-5">
           <div class="col-md-4 ftco-animate">
-            <h3 class="h5">#01 Web Design</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <div class="blog-entry">
+              <a href="committee/organizing-committe.php" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+                <h3 class="heading"><a href="#">Organizing Committee</a></h3>
+              </div>
+            </div>
           </div>
           <div class="col-md-4 ftco-animate">
-            <h3 class="h5">#02 Web Marketing</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <div class="blog-entry" data-aos-delay="100">
+              <a href="committee/steering-committee.php" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text p-4">
+                <h3 class="heading"><a href="#">Steering Committee</a></h3>
+              </div>
+            </div>
           </div>
           <div class="col-md-4 ftco-animate">
-            <h3 class="h5">#03 Web Development</h3>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <div class="blog-entry" data-aos-delay="200">
+              <a href="committee/judging-committee.php" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text p-4">
+                <h3 class="heading"><a href="#">Judging Committee</a></h3>
+              </div>
+            </div>
           </div>
-        </div>
       </div>
     </section>
 

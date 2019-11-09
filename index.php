@@ -1,6 +1,8 @@
 <?php
 error_reporting(0);
-session_start(); ?>
+session_start(); 
+$_SESSION['success_page'] = false;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,23 +37,23 @@ session_start(); ?>
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
+      <a class="navbar-brand" href="index.php">Science Bazaar <div style="opacity: 0.5;">WHD</div></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="application/register.php" class="nav-link">Apply Now</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="committee.html" class="nav-link">Committee</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="committee.php" class="nav-link">Committee</a></li>
+          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="room.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            <a class="nav-link dropdown-toggle" href="room.php" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
             <div class="dropdown-menu" aria-labelledby="dropdown04">
-              <a class="dropdown-item" href="frequently-asked-questions.html">FAQ</a>
-              <a class="dropdown-item" href="terms-and-conditions.html">Terms and Conditions</a>
+              <a class="dropdown-item" href="frequently-asked-questions.php">FAQ</a>
+              <a class="dropdown-item" href="terms-and-conditions.php">Terms and Conditions</a>
 
               <?php
               if ($_SESSION['logged_in'] == true) {
@@ -90,7 +92,7 @@ session_start(); ?>
               </strong>
             </h1>
             <p>Science has conferred many gifts on modern life. Indeed, they are far too many to be counted.</p>
-            <p><a href="application/register.html" class="btn btn-primary btn-outline-white px-4 py-3 popup-vimeo"><span class="ion-ios-paper mr-2"></span> Apply Now</a></p>
+            <p><a href="application/register.php" class="btn btn-primary btn-outline-white px-4 py-3 popup-vimeo"><span class="ion-ios-paper mr-2"></span> Apply Now</a></p>
           </div>
         </div>
       </div>
@@ -130,7 +132,7 @@ session_start(); ?>
         <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
           <div class="media block-6 services d-block text-center">
             <div class="d-flex justify-content-center">
-              <a href="application/register.html">
+              <a href="application/register.php">
                 <div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-layers"></span></div>
               </a>
             </div>
@@ -143,7 +145,7 @@ session_start(); ?>
         <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
           <div class="media block-6 services d-block text-center">
             <div class="d-flex justify-content-center">
-              <a href="committee.html">
+              <a href="committee.php">
                 <div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gears"></span></div>
               </a>
             </div>
@@ -156,7 +158,7 @@ session_start(); ?>
         <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
           <div class="media block-6 services d-block text-center">
             <div class="d-flex justify-content-center">
-              <a href="contact.html">
+              <a href="contact.php">
                 <div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-paper-plane"></span></div>
               </a>
             </div>
@@ -170,13 +172,13 @@ session_start(); ?>
         <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
           <div class="media block-6 services d-block text-center">
             <div class="d-flex justify-content-center">
-              <a href="frequently-asked-questions.html">
+              <a href="frequently-asked-questions.php">
                 <div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div>
               </a>
             </div>
             <div class="media-body p-2">
               <h3 class="heading">Need Help?</h3>
-              <p>There are answered questions. You can take a look over it. Still couldn't find the answer for your question? <a href="contact.html">Contact us</a></p>
+              <p>There are answered questions. You can take a look over it. Still couldn't find the answer for your question? <a href="contact.php">Contact us</a></p>
             </div>
           </div>
         </div>
@@ -190,7 +192,7 @@ session_start(); ?>
         <div class="row d-flex justify-content-center">
           <div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
             <h2 class="h1 font-weight-bold">Terms and Conditions</h2>
-            <p><a href="terms-and-conditions.html" class="btn btn-primary btn-outline-white mt-3 py-3 px-4">Read Now</a></p>
+            <p><a href="terms-and-conditions.php" class="btn btn-primary btn-outline-white mt-3 py-3 px-4">Read Now</a></p>
           </div>
         </div>
       </div>
@@ -208,28 +210,28 @@ session_start(); ?>
       <div class="row">
         <div class="col-md-4 ftco-animate">
           <div class="blog-entry">
-            <a href="committee/organizing-committe.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+            <a href="committee/organizing-committe.php" class="block-20" style="background-image: url('images/image_1.jpg');">
             </a>
             <div class="text p-4 d-block">
-              <h3 class="heading"><a href="organizing-committee.html">Organizing Committee</a></h3>
+              <h3 class="heading"><a href="organizing-committee.php">Organizing Committee</a></h3>
             </div>
           </div>
         </div>
         <div class="col-md-4 ftco-animate">
           <div class="blog-entry" data-aos-delay="100">
-            <a href="committee/steering-committee.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+            <a href="committee/steering-committee.php" class="block-20" style="background-image: url('images/image_2.jpg');">
             </a>
             <div class="text p-4">
-              <h3 class="heading"><a href="committee/steering-committee.html">Steering Committee</a></h3>
+              <h3 class="heading"><a href="committee/steering-committee.php">Steering Committee</a></h3>
             </div>
           </div>
         </div>
         <div class="col-md-4 ftco-animate">
           <div class="blog-entry" data-aos-delay="200">
-            <a href="committee/judging-committee.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+            <a href="committee/judging-committee.php" class="block-20" style="background-image: url('images/image_3.jpg');">
             </a>
             <div class="text p-4">
-              <h3 class="heading"><a href="committee/judging-committee.html">Judging Committee</a></h3>
+              <h3 class="heading"><a href="committee/judging-committee.php">Judging Committee</a></h3>
             </div>
           </div>
         </div>

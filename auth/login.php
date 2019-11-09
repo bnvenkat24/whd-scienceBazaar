@@ -9,7 +9,10 @@ if ($_SESSION['logged_in'] == false) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Sign Up Form by Colorlib</title>
 
     <!-- Font Icon -->
@@ -64,8 +67,6 @@ if ($_SESSION['logged_in'] == false) {
         </section>
 
     </div>
-
-    <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
@@ -96,12 +97,12 @@ if (isset($_POST['signin'])) {
     $password = sha1($_POST['your_pass']);
 
 
-    $stmt = $conn->prepare("SELECT * FROM users WHERE email = ? AND password = ? LIMIT 1");
+    $stmt = $conn->prepare("SELECT fname, lname FROM users WHERE email = ? AND password = ? LIMIT 1");
     $stmt->bind_param("ss", $email, $password);
     //execute the statement
     $stmt->execute();
 
-    $stmt->bind_result($fname, $lname, $email, $password);
+    $stmt->bind_result($fname, $lname);
     $stmt->store_result();
 
 
@@ -122,7 +123,9 @@ if (isset($_POST['signin'])) {
         }
     }
      else {
-        header("Location: ../contact.html");
+        print '<div class="alert alert-danger">
+        <strong>Username and Password Invalid!</strong> 
+      </div>';
     }
     $stmt->close();
 $conn->close();
