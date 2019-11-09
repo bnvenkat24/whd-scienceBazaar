@@ -20,7 +20,7 @@ if($_SESSION['logged_in'] == true){
 	<div class="page-content">
 		<div class="form-v1-content">
 			<div class="wizard-form">
-		        <form class="form-register" action="#" method="post">
+		        <form class="form-register" action="application_register.php" method="post">
 		        	<div id="form-total">
 		        		<!-- SECTION 1 -->
 			            <h2>
@@ -688,7 +688,8 @@ if($_SESSION['logged_in'] == true){
 								<p>The intent and spirit of the Competition is to test the skills and creativity of the student entrants. Anyone acting as a team Mentor, or in any mentorship role, where allowed (for example, local, regional, or global sponsors), must limit the level of support provided to student entrants to general guidance and must not contribute in any way that may be considered original authorship, or in a way that may enable claims of rights or ownership to the submitted entries. In no event will work-on-behalf of teams or individuals be allowed.</p>
 							</div>
 						</section>
-		        	</div>
+					</div>
+					<button type="submit">SUbmit</button>
 		        </form>
 			</div>
 		</div>
